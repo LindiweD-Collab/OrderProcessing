@@ -12,3 +12,8 @@ CREATE TABLE products (
     price REAL NOT NULL,  
     stock INTEGER NOT NULL  
 );
+
+
+INSERT INTO products (name, price, stock) VALUES ('Laptop', 999.99, 10);  
+INSERT INTO products (name, price, stock) VALUES ('Smartphone', 499.99, 20);  
+INSERT INTO products (name, price, stock) VALUES ('Headphones', 199.99, 30);  
